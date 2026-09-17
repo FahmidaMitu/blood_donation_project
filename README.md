@@ -27,6 +27,11 @@ A full-featured Django web application where users can register as blood donors,
 
 ---
 
+### Project Demo & Screenshots
+* **Project Screenshots:** [View Screenshots Folder](https://drive.google.com/drive/folders/1V7PSDVtEzSzpNYvQHfBR2BCF58jVicUp?usp=drive_link)
+
+---
+
 ## Installation & Setup Instructions
 
 Follow these steps to run the project locally on your machine:
@@ -36,5 +41,3 @@ Follow these steps to run the project locally on your machine:
 git clone <https://github.com/FahmidaMitu/blood_donation_project.git>
 cd blood_donation_project
 
-## Project Demo & Screenshots
-* **Project Screenshots:** [View Screenshots Folder](https://drive.google.com/drive/folders/1V7PSDVtEzSzpNYvQHfBR2BCF58jVicUp?usp=drive_link)
