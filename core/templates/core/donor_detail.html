@@ -1,0 +1,18 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<div class="card p-4">
+    <h2>Donor Profile: {{ donor.user.get_full_name|default:donor.user.username }}</h2>
+    <hr>
+    <p><strong>Blood Group:</strong> {{ donor.blood_group }}</p>
+    <p><strong>Phone:</strong> {{ donor.phone }}</p>
+    <p><strong>Location:</strong> {{ donor.location }}</p>
+    <p><strong>Last Donation Date:</strong> {{ donor.last_donation_date|default:"N/A" }}</p>
+    <p><strong>Availability:</strong> {{ donor.availability }}</p>
+    <p><strong>Description:</strong> {{ donor.description|default:"No description provided." }}</p>
+    
+    {% if user == donor.user %}
+        <a href="{% url 'donor_profile' %}" class="btn btn-warning">Edit Profile</a>
+    {% endif %}
+    <a href="{% url 'donor_list' %}" class="btn btn-secondary">Back to Donors</a>
+</div>
+{% endblock %}

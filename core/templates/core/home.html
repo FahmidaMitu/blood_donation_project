@@ -1,0 +1,13 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<div class="jumbotron text-center bg-light p-5 rounded">
+    <h1 class="display-4">Blood Donate & Request System</h1>
+    <p class="lead">"Find a donor. Save a life."</p>
+    <hr class="my-4">
+    <div>
+        <a class="btn btn-primary btn-lg" href="{% url 'donor_list' %}">Find Blood Donor</a>
+        <a class="btn btn-danger btn-lg" href="{% url 'create_request' %}">Request Blood</a>
+        <a class="btn btn-success btn-lg" href="{% url 'donor_profile' %}">Become a Donor</a>
+    </div>
+</div>
+{% endblock %}
