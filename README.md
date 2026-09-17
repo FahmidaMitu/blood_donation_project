@@ -35,3 +35,6 @@ Follow these steps to run the project locally on your machine:
 ```bash
 git clone <https://github.com/FahmidaMitu/blood_donation_project.git>
 cd blood_donation_project
+
+## Project Demo & Screenshots
+* **Project Screenshots:** [View Screenshots Folder](https://drive.google.com/drive/folders/1V7PSDVtEzSzpNYvQHfBR2BCF58jVicUp?usp=drive_link)
