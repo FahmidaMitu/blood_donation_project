@@ -33,5 +33,5 @@ Follow these steps to run the project locally on your machine:
 
 ### 1. Clone the Repository
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/FahmidaMitu/blood_donation_project.git>
 cd blood_donation_project
